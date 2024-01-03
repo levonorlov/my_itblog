@@ -1,0 +1,21 @@
+.env
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Log
+*.log
+
+### < Python ###
+# Байт-код / Скомпилированные файлы
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение Python
+venv/
+### Python > ###
+
+### < Django ###
+db.sqlite3
+### Django > ###
